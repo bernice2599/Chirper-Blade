@@ -13,8 +13,8 @@
 
 ```
 git clone https://github.com/bernice2599/Chirper-Blade.git
-install composer
-cp .env.example .env # remember to set appropriate env variables
+composer require laravel/breeze --dev
+npm run dev
 php artisan migrate
 ```
 
