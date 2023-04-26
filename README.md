@@ -8,3 +8,16 @@
 </p>
 
 ## Chirper-Blade
+
+## Installation
+
+```
+git clone https://github.com/bernice2599/Chirper-Blade.git
+install composer
+cp .env.example .env # remember to set appropriate env variables
+php artisan migrate
+```
+
+## Tests
+
+Run test via `php artisan test`.
