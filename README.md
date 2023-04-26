@@ -13,11 +13,8 @@
 
 ```
 git clone https://github.com/bernice2599/Chirper-Blade.git
-composer require laravel/breeze --dev
+install composer
+composer require laravel/breeze --dev or php artisan breeze:install blade
 npm run dev
 php artisan migrate
 ```
-
-## Tests
-
-Run test via `php artisan test`.
