@@ -14,6 +14,7 @@
 ```
 git clone https://github.com/bernice2599/Chirper-Blade.git
 install composer
+php artisan serve
 composer require laravel/breeze --dev or php artisan breeze:install blade
 npm run dev
 php artisan migrate
